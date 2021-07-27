@@ -1,0 +1,42 @@
+.try-again-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.try-again-container >h1{
+    text-decoration: underline;
+    margin: 0px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.results-container >p{
+    font-size: 30px;
+    margin: 7px;
+}
+
+.start-again-btn{
+    position: relative;
+    margin: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    min-width: 64px;
+    padding: 2px 16px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    line-height: 36px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background: #3e4248;
+}
+
+.start-again-btn:hover,
+.start-again-btn:focus{
+    background: #808080;
+}
